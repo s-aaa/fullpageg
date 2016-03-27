@@ -1,0 +1,193 @@
+@font-face {
+    font-family:'icons';
+    font-style:normal;
+    font-weight:100;
+    src:local('icons'), url("../fonts/icons.woff") format("woff");
+    /* Copyright (c) 1992 Adobe Systems Incorporated. All Rights Reserved. Myriad is a trademark of Adobe Systems Incorporated. */
+}
+body,ul,li,h1,h2,h3,h4,h5,h6,ol,dd,dt,dl{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'icons','微软雅黑';
+    text-align: center;
+    color: #fff;
+    font-size: 4em;
+}
+#fp-nav ul li a.active span{
+    background: none;
+    border: 1px solid #333;
+}
+.fp-slidesNav ul li a span{
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+.fp-slidesNav ul li a.active span{
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+div.fp-controlArrow{
+    background: none;
+}
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #fff;
+}
+.fp-controlArrow.fp-prev {
+    left: 0;
+    width: 0;
+    border-width: 0;
+    border-color: none;
+}
+.fp-controlArrow.fp-next {
+    right: 0;
+    border-width: 0;
+    border-color: none;
+}
+div.fp-controlArrow {
+    background: none;
+}
+.section.s1{
+    background: url(../imgs/e808504e.background.png) center center no-repeat;
+    background-size: cover;
+}
+.section.s4{
+    background: url(../imgs/14201481.Golf-case.jpg) center center no-repeat;
+    background-size: cover;
+}
+.section.s5{
+    background: url(../imgs/ec4cb98d.rawmilk-office.png) center center no-repeat;
+    background-size: cover;
+}
+.fullPage-slidesNav [class^=icon-] {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.fullPage-slidesNav .icon-arrow-prev {
+    left: -35px;
+}
+
+ [class^=icon-]:before, [class*=" icon-"]:before {
+    font-family: icons;
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    speak: none;
+    text-decoration: inherit;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} 
+.icon-arrow-prev:before {
+    content: "\f103";
+}
+.icon-arrow-next:before {
+    content: "\f102";
+}
+i.icon-arrow-next.slidesArrow.next {
+    margin-left: 60px;
+}
+.container {
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    position: relative;
+}
+.grid{
+    margin-left: -20px;
+    position: relative;
+    letter-spacing: -.31em;
+}
+[class*=mobile-] {
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+    vertical-align: middle;
+    width: 100%;
+    letter-spacing: normal;
+    word-spacing: normal;
+    box-sizing: border-box;
+}
+.mobile-one-half {
+    width: 50%;
+}
+.graphic-content {
+     -webkit-transform: translate3d(-200px,0,0);
+    -ms-transform: translate3d(-200px,0,0);
+    transform: translate3d(-200px,0,0);
+    visibility: hidden;
+    opacity: 0;  
+}
+.graphic-content img{
+    width: 426px;
+    height: 488px;
+}
+.text-content {
+     -webkit-transform: translate3d(200px,0,0);
+    -ms-transform: translate3d(200px,0,0);
+    transform: translate3d(200px,0,0);
+    margin-right: 2.5rem;
+     visibility: hidden;
+    opacity: 0;  
+}
+.title--medium {
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+.title--large, .modal__title, .scroll-down .icon-arrow-down {
+    font-size: 2.75rem;
+    line-height: 1.2;
+}
+[class^=title--], [class*=" title--"] {
+    display: block;
+}
+.title--medium {
+    font-family: 'Avenir LT W01_85 Heavy1475544';
+    font-weight: 400;
+    margin-bottom: .9375rem;
+    color: rgba(0,0,0,.5);
+    text-transform: uppercase;
+    text-align: left;
+}
+.title--medium.green {
+    color: #007859;
+}
+.title--large {
+    font-family: 'Avenir LT W01_85 Heavy1475544';
+    font-weight: 400;
+    margin-bottom: .9375rem;
+    color: #fff;
+    text-align: left;
+}
+p, blockquote, table {
+    margin: 0;
+    margin-bottom: 20px;
+}
+p {
+    line-height: 1.5em;
+}
+.text-content p {
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+}
+.graphic-content.pull-left img,.aa{
+    margin-left: -160px;
+    width: 644px;
+    height: 464px;
+}
